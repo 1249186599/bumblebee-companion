@@ -58,8 +58,8 @@
 
         </activity>
 
-        <meta-data android:name="icon.3d.list" android:resource="@array/icon_3d_list" />
-        <meta-data android:name="icon.sdf.list" android:resource="@array/icon_sdf_list" />
+        <!-- Use the approved 2D launcher artwork. Template spatial layers would
+             override it with the default PICO icon on the spatial desktop. -->
     </application>
 
 </manifest>
